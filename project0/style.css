@@ -1,0 +1,170 @@
+/*Google Search and Google Image Search*/
+
+body, div, form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+form {
+    display: block;
+}
+
+a {
+    font-size: 13px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: #202124;
+}
+
+.navbar {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 85px;
+    margin-bottom: 20px;
+}
+
+.icon-google-image {
+    width: 272px;
+    height: 92px;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container-input {
+padding: 5px 8px 0px 14px;
+   width: 582px;
+   height: 44px;
+   border: 1px solid rgb(222, 222, 222);
+   border-radius: 30px;
+}
+
+.container-input:hover, .container-input:active {
+    box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.buttons {
+    display: block;
+    text-align: center;
+}
+
+.google-search-button {
+    width: 127px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.lucky-button {
+    width: 142px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+    border: none;
+    margin: 0px;
+    cursor: pointer; 
+}
+
+.google-search-button:hover, .lucky-button:hover {
+    border: 1px solid lightgray;
+}
+
+/*Advanced Search*/
+
+.header-advanced {
+    margin: 0px;
+    padding: 0px;
+}
+
+.h1-advanced {
+    font-size: 20px;
+    color: #D93025;
+    font-family: arial, sans-serif;
+    font-weight: 400;
+    margin: 25px 48px;
+    vertical-align: baseline;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb; 
+}
+
+.div-advanced {
+    margin: 50px;
+    padding: 0px;
+}
+
+.h2-advanced {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+    vertical-align: baseline;
+}
+
+.form-advanced {
+    margin: 0px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-left {
+    width: 200px;
+    font-size: 13px; 
+}
+
+.advanced-input {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 385px;
+}
+
+.button-advanced {
+    font-size: 11px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    padding: 0px;
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+    margin-top: 20px;
+}
+
+
